@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mega Secret Santa</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <script src="secretsanta.js"></script>
+  <body>
+    <h1 class="title">Mega Secret Santa</h1>
+
+    <div class="container">
+      <div class="button">
+    <input type="text" placeholder="Enter Names" id="addNames"></input><button class="addItems" onclick="{addName()}">Submit Name</button><br/>
+  </div>
+  <div class="labels">
+    <p>Names: </p><p id="names"></p>
+  </div>
+    <div class="button">
+    <input type="text" placeholder="Enter Categories" id="addCategories"></input><button class="addItems" onclick="addCategory()">Submit Category</button><br/>
+  </div>
+  <div class="labels">
+    <p>Categories: </p><p id="categories"></p>
+  </div>
+    <button class="generateButton" onclick="{generate()}">Generate List</button>
+
+    <p id="app"></p>
+  </div>
+  </body>
+</html>

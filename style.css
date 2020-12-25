@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Sail&display=swap");
+
+.title {
+  font-family: "Sail", cursive;
+  text-align: center;
+  font-size: 400%;
+  color: #a52324;
+  text-decoration: underline;
+}
+
+* {
+  background-color: #e8e5de;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button,
+.labels {
+  display: flex;
+}
+
+.generateButton {
+  padding: 1% 4%;
+  border-radius: 0.5em;
+  border: 3px solid #a52324;
+  background: #c52a2a;
+  color: #f8f7f5;
+  font-size: 120%;
+}
+
+input[type="text"] {
+  background-color: #f8f7f5;
+  border: none;
+  padding: 3% 6%;
+}
+
+.addItems {
+  background-color: #c52a2a;
+  color: #f8f7f5;
+  border: 2px solid #a52324;
+}
+
+/* #C52A2A
+#7FAB65
+#659A48
+ */
