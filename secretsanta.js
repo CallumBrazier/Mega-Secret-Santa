@@ -43,42 +43,6 @@ function shuffleArray() {
   }
 }
 
-//family.length = 9, categories.length = 6;
-// function reorderValues() {
-//   list.forEach((item, index) => {
-//     if (index < 6 && item.indexOf(family[0]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 5 && index < 12 && item.indexOf(family[1]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 11 && index < 18 && item.indexOf(family[2]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 17 && index < 24 && item.indexOf(family[3]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 23 && index < 30 && item.indexOf(family[4]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 29 && index < 36 && item.indexOf(family[5]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 35 && index < 42 && item.indexOf(family[6]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 41 && index < 48 && item.indexOf(family[7]) > -1) {
-//       list.splice(index, 1);
-//       list.push(item);
-//     } else if (index > 47 && item.indexOf(family[8]) > -1) {
-//       list.splice(index, 1);
-//       list.splice(0, 1, item);
-//     }
-
-//     return (document.getElementById("list4").innerHTML = list);
-//   });
-// }
-
 function reorderValues() {
   list.forEach((item, index) => {
     for (let i = 0; i < family.length; i++) {
@@ -103,7 +67,6 @@ function reorderValues() {
         list.unshift(item);
       }
     }
-    // return (document.getElementById("list4").innerHTML = list);
   });
 }
 
